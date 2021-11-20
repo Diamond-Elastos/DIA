@@ -221,7 +221,7 @@ contract Diamond {
     string public name = "Diamond";
 
     uint256 public decimals = 18;
-    uint256 public totalSupply = 500 * 10**18; // 80 Thousand
+    uint256 public totalSupply = 500 * 10**18; // 500 with 18 Decimals
 
     mapping(address => uint256) internal balances;
     mapping(address => mapping(address => uint256)) internal allowed;
